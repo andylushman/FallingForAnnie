@@ -6,6 +6,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+#nav {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+#nav ul {
+	margin-bottom: 0;
+	text-align: center;
+}
 
 /* Reset */
 
