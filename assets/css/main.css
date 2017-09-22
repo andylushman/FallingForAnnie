@@ -17,11 +17,11 @@
 	text-align: center;
 }
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
     #nav li {
         display: inline;
     }
-}
+}*/
 
 /* Reset */
 
