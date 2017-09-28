@@ -6,6 +6,10 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+#title {
+	margin-top: 65px;
+}
+
 #nav {
 	position: fixed;
 	z-index: 1;
@@ -17,10 +21,31 @@
 	text-align: center;
 }
 
+#arrow {
+	display: none;
+}
+
 @media only screen and (max-width: 500px) {
-    #nav li {
+
+		#title {
+			margin-top: 0;
+		}
+
+		.content p {
+			margin-bottom: 18em;
+		}
+
+		#arrow {
+			display: inline-block;
+		}
+
+		#nav li {
         display: none;
     }
+
+		#home .image img {
+			content: url("../../images/gallery-5.JPG");
+		}
 }
 
 /* Reset */
