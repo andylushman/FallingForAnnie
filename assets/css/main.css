@@ -10,20 +10,6 @@
 	margin-top: 65px;
 }
 
-#nav {
-	position: fixed;
-	z-index: 1;
-	width: 100%;
-}
-
-#nav ul {
-	margin-bottom: 0;
-	text-align: center;
-}
-
-#arrow {
-	display: none;
-}
 
 @media only screen and (max-width: 500px) {
 
@@ -38,10 +24,6 @@
 		#arrow {
 			display: inline-block;
 		}
-
-		#nav li {
-        display: none;
-    }
 
 		#home .image img {
 			content: url("../../images/gallery-5.JPG");
